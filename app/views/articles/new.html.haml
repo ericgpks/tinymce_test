@@ -1,0 +1,4 @@
+= tinymce_assets
+= form_for @article, html: {multipart: true} do |f|
+  = f.text_area :content, class: "tinymce", id: "js-tinymce"
+  = tinymce

@@ -30,7 +30,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem 'devise', '~> 4.2'
 # use for seeding database
 gem 'seed-fu', '~> 2.3', '>= 2.3.9'

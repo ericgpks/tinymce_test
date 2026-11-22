@@ -1,5 +1,6 @@
+license_key: gpl
 toolbar:
-  - styleselect | bold italic | undo redo
+  - styles | bold italic | undo redo
   - image | link
 plugins:
   - image

@@ -71,10 +71,8 @@ test:
   database: dnus
 production:
   <<: *default
-production:
-  <<: *default
   database: <%= ENV['DNUS_DB_NAME'] %>
-  userame:  <%= ENV['DNUS_DB_USERNAME'] %>
+  username: <%= ENV['DNUS_DB_USERNAME'] %>
   password: <%= ENV['DNUS_DB_PASSWORD'] %>
   host:     <%= ENV['DNUS_DB_HOST'] %>
 
